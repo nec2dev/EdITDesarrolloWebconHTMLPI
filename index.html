@@ -78,6 +78,15 @@
                     contactemos con vos?
                 </h4>
                 <p>Envianos tu consulta >></p>
+                <form method="POST" action="./php/action.php">
+                    <label for="">Nombre<span>*</span>:<br><input name="nombre" required type="text"></label><br>
+                    <label for="">Email<span>*</span>:<br> <input name="email" required type="email"></label><br>
+                    <label for="">Mensaje<span>*</span>:<br><textarea required name="comentarios" id="" cols="30" rows="10"></textarea> </label><br>
+                </form>
+                <div>
+                    <input type="submit" value="Enviar Consulta">
+                    <input type="reset" value="Borrar">
+                </div>
             </section>
         </div>
     </main>
@@ -89,7 +98,7 @@
     </aside>
     <footer>
         <h1>wwwapas</h1>
-        <a href="mailto: wwwapas_sm@gmail.com"></a>
+        <a href="mailto: wwwapas_sm@gmail.com">wwwapas_sm@gmail.com</a>
     </footer>
 </body>
 
